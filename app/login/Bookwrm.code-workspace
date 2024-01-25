@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Documents/Bookwrm"
+		},
+		{
+			"path": "../../../../experiments"
+		},
+		{
+			"path": "../../../../Bobolink"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "experiments"
+	}
+}
