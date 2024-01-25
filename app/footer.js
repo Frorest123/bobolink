@@ -29,7 +29,7 @@ export default function () {
                 </li>
             </ul>
             <div className="footer-bottom">
-                <p>All Rights reserved by me (gorlox the destroyer)</p>
+                <p>All Rights reserved by Bobolink</p>
             </div>
         </footer>
         </>
