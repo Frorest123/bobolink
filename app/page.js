@@ -42,7 +42,7 @@ const Larrys = () => {
                     </svg>
                 </span>
                 <h1 class="cs-title">Revolutionizing Your Workforce with AI-Powered Upskilling</h1>
-                <a href="" class="cs-button-solid">Start Now</a>
+                <a href="/math/register" class="cs-button-solid">Start Now</a>
             </div>
             <ul class="cs-card-group">
                 <li class="cs-item">

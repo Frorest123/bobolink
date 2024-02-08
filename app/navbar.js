@@ -15,7 +15,7 @@ export default function Navbar() {
                     <li className="About"><Link href="/math/Algebra1">About Us</Link></li>
                 </ul>
             </nav>
-            <Link className="cta" href="#"><button className='contactbutton'>Join Waitlist</button></Link>
+            <Link className="cta" href="/math/register"><button className='contactbutton'>Join Waitlist</button></Link>
         </header>
     )
 }
