@@ -3,17 +3,16 @@
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 
-
-
 export default function Register(){
-  const [email, setEmail] = useState("") 
-  const router = useRouter
+  const [email, setEmail] = useState(""); 
+  const router = useRouter();
   const submitEmail = async(e) => {
     e.preventDefault()
-    const email = await fetch("/api/postWaitlist", {
+    const userEmail = email;
+    const response = await fetch("/api/postWaitlist", {
       method: "POST",
       headers: {"content-type":"application/json"},
-      body: JSON.stringify({email})
+      body: JSON.stringify({email: userEmail})
     })
     router.push("/")
   } 
