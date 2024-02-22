@@ -1,4 +1,22 @@
+"use client"
+
+import { useRouter } from "next/navigation"
+import { useState } from "react"
+
+
+
 export default function Register(){
+  const [email, setEmail] = useState("") 
+  const router = useRouter
+  const submitEmail = async(e) => {
+    e.preventDefault()
+    const email = await fetch("/api/postWaitlist", {
+      method: "POST",
+      headers: {"content-type":"application/json"},
+      body: JSON.stringify({email})
+    })
+    router.push("/")
+  } 
    return(
       <section class="register">
         <div>
@@ -6,9 +24,9 @@ export default function Register(){
           <p class="reggie">Please fill out this form with the required information</p>
         </div>
         <fieldset class="inputfield">
-        <form method="post" class="post">
-            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required></input></label>
-          <input type="submit" value="Submit"></input>
+        <form method="post" class="post" onSubmit={submitEmail}>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required value={email} onChange={e => setEmail(e.target.value)}></input></label>
+          <a href="/"><input type="submit" value="Submit" href="/"></input></a>
         </form>
         </fieldset>
       </section>
