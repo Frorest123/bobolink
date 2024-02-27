@@ -1,11 +1,13 @@
 import { PrismaClient } from "@prisma/client";
 import { NextRequest, NextResponse } from "next/server";
 
-export default function POST(req){
+export async function POST(req){
+    console.log("it work")
     const prisma = new PrismaClient()
-    const body = req.json()
+    const body = await req.json()
     const email = body.email
-    const waitlistItem = prisma.waitlistMember.create({
+    console.log(body)
+    const waitlistItem = await prisma.waitlistMember.create({
         data:{
             email:email
         }
