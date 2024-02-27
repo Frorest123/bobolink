@@ -76,7 +76,7 @@ const Larrys = () => {
             </ul>
         </div>
         <picture class="cs-background">
-            <img decoding="async" src="https://cdn.discordapp.com/attachments/1116071450659536977/1211825620422623282/happy-businesspeople-smiling-cheerfully-during-600nw-2164682885.png?ex=65ef9b8e&is=65dd268e&hm=7acbaa8329efaf461e8328e38108efd8ee5b5c530aae85413a317899c45c2d52&" alt="meeting" aria-hidden="true"></img>
+            <img decoding="async" alt="meeting" aria-hidden="true"></img>
         </picture>
     </section>                                                  
   )
