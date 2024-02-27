@@ -199,16 +199,5 @@
     grid-column: span 3;
   }
 }
-@media only screen and (min-width: 100rem) {
-  #hero-1619 .cs-background {
-    background: url("https://cdn.discordapp.com/attachments/769220443692990474/1190069321972588786/20160325173424-diversity-workplace-meeting-talking-teamwork.png?ex=65a0756c&is=658e006c&hm=3a0a8ff59a0046b4781944683dadfdb908f569671647da64b702107ab2a7d0a5&");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  #hero-1619 .cs-background img {
-    display: none;
-  }
-}
+
           
