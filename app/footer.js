@@ -5,7 +5,7 @@ export default function () {
         <>
         <footer className="footer">
             <div className="footer-left">
-                <img src="https://cdn.discordapp.com/attachments/1116071450659536977/1211825155752599582/bobolink.gif?ex=65ef9b1f&is=65dd261f&hm=86dbbd4b2f402f5319836f0437b15550d6369fcb7a33c7f5079a191fb31f01ed&" alt=""/>
+                <img src="https://cdn.discordapp.com/attachments/1116071450659536977/1213907197310935090/bobolinker.gif?ex=65f72e2d&is=65e4b92d&hm=7ef66c214e5f11b881fc92e27977ef005b5462b5fd8e132a86aee8355951c3a9&" alt=""/>
                 <p>Pioneering Educational Technology</p>
             </div>
             <ul className="footer-right">

@@ -4,7 +4,7 @@ export default function Navbar() {
     return(
         <header>
             <div className="larrytheworm" style={{float:'left'}}>
-                <img className="logo" src="https://cdn.discordapp.com/attachments/1116071450659536977/1190378280952528928/0.png?ex=65eb692a&is=65d8f42a&hm=1a823adf1d87efcdd474bd57383390711e0ecc9336bd6bf19f0ba0cd72a87600&" />
+                <img className="logo" src="https://cdn.discordapp.com/attachments/1116071450659536977/1213907440907583488/bobolinks.png?ex=65f72e67&is=65e4b967&hm=49cf73ff55dab0b14f369bf0a55adb445180e1485579e9c13a733a0be74ef309&" />
                 <ul className="homeLinks">
                     <li className="Bookwrm"><Link href="/">Bobolink</Link></li>
                 </ul>
