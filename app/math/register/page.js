@@ -14,7 +14,7 @@ export default function Register(){
       headers: {"content-type":"application/json"},
       body: JSON.stringify({email: userEmail})
     })
-    router.push("/")
+    router.push("/math/success")
   } 
    return(
       <section class="register">
