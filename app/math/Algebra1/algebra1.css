@@ -68,6 +68,7 @@ p {
 
 .team-photo {
   width: 200px;
+  height: 200px;
   height: auto;
   border-radius: 50%;
   margin-bottom: 15px;

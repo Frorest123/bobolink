@@ -11,7 +11,7 @@ export default function Algebra1(){
             
             <div class="team-members">
                 <div class="team-member">
-                    <img src="https://cdn.discordapp.com/attachments/1116071450659536977/1217945501769404416/e2abb86f-6184-4884-8ad5-43ad89ad5833.jpg?ex=6605df23&is=65f36a23&hm=b44fc3e6f1872573abc72289e119406e8953c443f5318b865ea25bd7bf340a01&" alt="CEO" class="team-photo"></img>
+                    <img src="https://cdn.discordapp.com/attachments/1116071450659536977/1217947817415540826/image.png?ex=6605e14c&is=65f36c4c&hm=b7611dc1660bdc7ec34bd7d9f19a25f8738f88da7b21447f8aedf9dba81be96a&" alt="CEO" class="team-photo"></img>
                     <h2>CEO</h2>
                     <p>Nicole Pochinki is our visionary seasoned leader with a passion for creating technologies that make a difference. She brings a rich blend of experience in educational technologies and pedagogic research. Her unique blend of innovation, empathy, and strategic vission guides Bobolink on its path to constantly pushing the boundaries of what is possible in EdTech.</p>
                 </div>
