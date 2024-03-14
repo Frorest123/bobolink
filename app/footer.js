@@ -19,12 +19,13 @@ export default function () {
                     </ul>
                 </li>
                 <li>
-                    <h2 className="Address">Address</h2>
+                    <h2 className="Address">Contact</h2>
 
                     <ul className="box">
-                        <li><Link href="https://www.google.com/maps/place/101+W+11th+St,+New+York,+NY+10011/@40.7356079,-74.0010803,17z/data=!3m1!4b1!4m6!3m5!1s0x89c259965a5a8fe9:0xac615890b4dc4e2a!8m2!3d40.7356079!4d-73.9985054!16s%2Fg%2F11f40b7s70?entry=ttu">101 West 11th st</Link></li>
-                        <li><Link href="https://www.google.com/maps/place/101+W+11th+St,+New+York,+NY+10011/@40.7356079,-74.0010803,17z/data=!3m1!4b1!4m6!3m5!1s0x89c259965a5a8fe9:0xac615890b4dc4e2a!8m2!3d40.7356079!4d-73.9985054!16s%2Fg%2F11f40b7s70?entry=ttu">New York</Link></li>
-                        <li><Link href="https://www.google.com/maps/place/101+W+11th+St,+New+York,+NY+10011/@40.7356079,-74.0010803,17z/data=!3m1!4b1!4m6!3m5!1s0x89c259965a5a8fe9:0xac615890b4dc4e2a!8m2!3d40.7356079!4d-73.9985054!16s%2Fg%2F11f40b7s70?entry=ttu">NY 10011</Link></li>
+                        <li><Link href="">team@bobolink.ai</Link></li>
+                        <li><Link href="">+1 (954) 371 - 4062</Link></li>
+                        <li><Link href="https://twitter.com/Bobolink_AI">Twitter</Link></li>
+                        <li><Link href="https://www.linkedin.com/company/bobolink-ai/">LinkedIn</Link></li>
                     </ul>
                 </li>
             </ul>
