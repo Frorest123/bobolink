@@ -53,6 +53,7 @@
     margin: 0 0 2.5rem 0;
     color: #fff;
     position: relative;
+    font-family: "Century Gothic", sans-serif;
   }
   #hero-1619 .cs-text {
     font-size: clamp(1rem, 1.95vw, 1.25rem);
