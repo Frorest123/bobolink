@@ -14,8 +14,7 @@ export default function () {
 
                     <ul className="box">
                         <li><Link href="/math/Algebra1">Team</Link></li>
-                        <li><Link href="/math/Algebra2">Customer Service</Link></li>
-                        <li><Link href="/math/APCalcAB">Waitlist</Link></li>
+                        <li><Link href="/math/register">Waitlist</Link></li>
                     </ul>
                 </li>
                 <li>
