@@ -11,7 +11,6 @@ export default function Navbar() {
             </div>
             <nav className="navbar">
                 <ul className="navLinks">
-                    <li className="Login"><Link href="/math/Algebra2">Contact</Link></li>
                     <li className="About"><Link href="/math/Algebra1">About Us</Link></li>
                 </ul>
             </nav>
