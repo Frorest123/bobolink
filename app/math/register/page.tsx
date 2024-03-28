@@ -47,11 +47,10 @@ export default function Register(){
   const submitData = async(e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const userEmail = data.email;
     const response = await fetch("/api/postWaitlist", {
       method: "POST",
       headers: {"content-type":"application/json"},
-      body: JSON.stringify({email: userEmail})
+      body: JSON.stringify({data})
     })
     router.push("/math/success");
 
