@@ -4,10 +4,10 @@ import { PrismaAdapter } from '@auth/prisma-adapter';
 import { PrismaClient } from '@prisma/client';
 require('dotenv').config();
 import CredentialsProvider from "next-auth/providers/credentials";
-const prisma = new PrismaClient();
+import prisma from "@app/libs/prismadb"
 
 
-export const authOptions = {
+const authOptions = {
 
     adapter: PrismaAdapter(prisma),
 
