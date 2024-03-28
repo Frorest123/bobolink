@@ -16,10 +16,10 @@ export default function Home() {
 const Larrys = () => {
   return (   
     <section id="hero-1619">
-        <div class="cs-container">
-            <div class="cs-content">
-                <span class="cs-topper">
-                    <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="cs-container">
+            <div className="cs-content">
+                <span className="cs-topper">
+                    <svg className="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.7">
                         <path d="M0.621948 7.49889L6.40262 15L10.343 15L4.56231 7.49889L10.343 -4.2492e-07L6.40262 -2.52681e-07L0.621948 7.49889Z" fill="var(--chevronColor)"/>
                         <path d="M7.62195 7.49889L13.4026 15L17.343 15L11.5623 7.49889L17.343 -4.2492e-07L13.4026 -2.52681e-07L7.62195 7.49889Z" fill="var(--chevronColor)"/>
@@ -30,7 +30,7 @@ const Larrys = () => {
                         </g>
                     </svg>
                     Just-In-Time Training designed for your Tasks
-                    <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.7">
                         <path d="M48.3781 7.49889L42.5974 15L38.657 15L44.4377 7.49889L38.657 -4.2492e-07L42.5974 -2.52681e-07L48.3781 7.49889Z" fill="var(--chevronColor)"/>
                         <path d="M41.3781 7.49889L35.5974 15L31.657 15L37.4377 7.49889L31.657 -4.2492e-07L35.5974 -2.52681e-07L41.3781 7.49889Z" fill="var(--chevronColor)"/>
@@ -41,41 +41,41 @@ const Larrys = () => {
                         </g>
                     </svg>
                 </span>
-                <h1 class="cs-title">Revolutionizing Your Workforce with AI-Powered Upskilling</h1>
+                <h1 className="cs-title">Revolutionizing Your Workforce with AI-Powered Upskilling</h1>
                 <a href="/math/register" class="cs-button-solid">Start Now</a>
             </div>
-            <ul class="cs-card-group">
+            <ul className="cs-card-group">
                 <li class="cs-item">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check-circle.svg" alt="icon" width="48" height="48"></img>
-                    <h3 class="cs-h3">Smart Learning, Smarter Working</h3>
-                    <p class="cs-item-text">
+                    <img className="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check-circle.svg" alt="icon" width="48" height="48"></img>
+                    <h3 className="cs-h3">Smart Learning, Smarter Working</h3>
+                    <p className="cs-item-text">
                     Bobolink is a mentor and learning guide. We recommend learning resources that tailors free educational content to your knowledge levels and interests.
                     </p>
                 </li>
-                <li class="cs-item">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/speedometer.svg" alt="icon" width="48" height="48"></img>
-                    <h3 class="cs-h3">AI chatbot tutor</h3>
-                    <p class="cs-item-text">
+                <li className="cs-item">
+                    <img className="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/speedometer.svg" alt="icon" width="48" height="48"></img>
+                    <h3 className="cs-h3">AI chatbot tutor</h3>
+                    <p className="cs-item-text">
                     A chatbot tutor will be available to answer immediate clarifying questions while learners engage with educational content.
                     </p>
                 </li>
-                <li class="cs-item">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg" alt="icon" width="48" height="48"></img>
-                    <h3 class="cs-h3">Adaptive Learning</h3>
-                    <p class="cs-item-text">
+                <li className="cs-item">
+                    <img className="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg" alt="icon" width="48" height="48"></img>
+                    <h3 className="cs-h3">Adaptive Learning</h3>
+                    <p className="cs-item-text">
                     Integrate seamlessly with your task managers, job systems, and Google Calendars. Our AI-driven platform learns what employees need and delivers relevant readings and videos exactly when they're needed.
                     </p>
                 </li>
-                <li class="cs-item">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg" alt="icon" width="48" height="48"></img>
-                    <h3 class="cs-h3">Highly Recommend</h3>
-                    <p class="cs-item-text">
+                <li className="cs-item">
+                    <img className="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg" alt="icon" width="48" height="48"></img>
+                    <h3 className="cs-h3">Highly Recommend</h3>
+                    <p className="cs-item-text">
                     Our system recommends targeted resources right before your meetings, accessible with a single click. Remember to recommend us if you enjoyed our service!
                     </p>
                 </li>
             </ul>
         </div>
-        <picture class="cs-background">
+        <picture className="cs-background">
             <img decoding="async" src="https://cdn.discordapp.com/attachments/1116071450659536977/1211827915486928936/20160325173424-diversity-workplace-meeting-talking-teamwork.png?ex=660212b1&is=65ef9db1&hm=2081db4d0b7ab9784765a4cad55a9fa2abc57228fa593cbfc444e9a618b5271c&" alt="meeting" aria-hidden="true"></img>
         </picture>
     </section>                                                  
