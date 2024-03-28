@@ -48,4 +48,15 @@ model User {
 model WaitlistMember {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
   email         String?   @unique
+
+  wordOfMouth Boolean
+  socialMedia Boolean
+  advertisement Boolean
+  newsletter Boolean
+  podcast Boolean
+  typedUrlDirectly Boolean
+  eventOrConference Boolean
+  other String?
+  
 }
+
