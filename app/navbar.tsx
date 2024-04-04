@@ -17,7 +17,7 @@ export default function Navbar() {
                     <li className="About"><Link href="/Bobolink/about">About Us</Link></li>
                 </ul>
             </nav>
-            <Link className="cta" href="/math/register"><button className='contactbutton'>Join Waitlist</button></Link>
+            <Link className="cta" href="/Bobolink/register"><button className='contactbutton'>Join Waitlist</button></Link>
         </header>
     )
 }
