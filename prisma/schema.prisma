@@ -48,4 +48,23 @@ model User {
 model WaitlistMember {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
   email         String?   @unique
+
+  leadList      LeadList  @relation(fields: [leadListId], references: id)
+  leadListId    String    @unique @db.ObjectId
+}
+
+model LeadList {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+
+  wordOfMouth Boolean
+  socialMedia Boolean
+  advertisement Boolean
+  newsletter Boolean
+  podcast Boolean
+  typedUrlDirectly Boolean
+  eventOrConference Boolean
+  other String?
+
+
+  member        WaitlistMember?  @relation()
 }

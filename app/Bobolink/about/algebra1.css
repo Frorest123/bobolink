@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+/* Section 1 */
+#section1 {
+  min-height: 20vh;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100% - 30px);
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+
+.description {
+  margin-right: 20px;
+  width: 30%;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  font-weight: 200; /* Roboto Regular */
+}
+
+
+.big-text {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  letter-spacing: -4.5px; /* Less space between letters */
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 13pt;
+  font-weight: 200; /* Roboto Regular */
+}
+
+/* Team Page */
+#team-section {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.team-member {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.team-photo {
+  width: 200px;
+  height: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Override for Team Page */
+#team-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Contact Page */
+#contact-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 30px;
+
+}
+
+.centered-description {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px; 
+  font-weight: 300;
+  position: relative;  /* Added this line */
+  top: 50%;  /* Added this line */
+  transform: translateY(-50%);  /* Added this line */
+}
+
+
+.contact-details {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-details h2 {
+  margin-top: 20px;
+}            
