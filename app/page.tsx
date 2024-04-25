@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { resolve } from 'styled-jsx/css';
 import Image from 'next/image';
 import mainBackground from "@/public/mainBackground.png"
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -44,7 +45,7 @@ const Larrys = () => {
                     </svg>
                 </span>
                 <h1 className="cs-title">Revolutionizing Your Workforce with AI-Powered Upskilling</h1>
-                <a href="/math/register" className="cs-button-solid">Start Now</a>
+                <Link href="/Bobolink/register" className="cs-button-solid">Start Now</Link>
             </div>
             <ul className="cs-card-group">
                 <li className="cs-item">
