@@ -1,5 +1,7 @@
-import * as React from 'react';
+
 import { PieChart } from '@mui/x-charts/PieChart';
+import getWaitlist from '@/app/actions/getWaitlist';
+import { useEffect, useState } from 'react';
 
 const data = [
     { id: 0, value: 10, label: 'Word of Mouth' },
@@ -12,6 +14,19 @@ const data = [
 ]
 
 export default function Display() {
+
+    const [waitlist, setWaitlist] = useState([])
+    useEffect(() => {
+        fetch('/api/getWaitlist', {method: 'GET'})
+        .then((res) =>
+            res.json()
+        ).then((res) => {
+            console.log(res)
+            setWaitlist(res.waitlist)
+            }
+        )
+    }, [])
+    
     return(
         <>
         <PieChart

@@ -49,7 +49,7 @@ model WaitlistMember {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
   email         String?   @unique
 
-  leads          String
+  leads          String?
 }
 
 // model LeadList {
