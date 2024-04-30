@@ -4,13 +4,14 @@ import prisma from "@app/libs/prismadb";
 
 export async function POST(req: NextRequest) {
     
-    console.log("it work");
     const body = await req.json();
-    console.log(body);
     if (!body.data.email) {
         console.log('ur fat')
         console.log(body)
         return NextResponse.json({error: 'you suck'},{status:400});
+    }
+    if (typeof body.data?.leads !== "string") {
+        return NextResponse.json({error: "invalid data"},{status: 400})
     }
 
     const newData: any = {...body.data};
