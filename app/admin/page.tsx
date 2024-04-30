@@ -10,7 +10,7 @@ export default function Admin(){
     return(
         <div className="theodore">
             {session.status === 'authenticated' ? (<Display/>) : (
-                <h1>Sorry. To access this page, please <Link href="/adminAuth">Sign In</Link></h1>
+                <h1>Sorry. To access this page, please <Link href="/adminAuth?redirect=admin">Sign In</Link></h1>
             )}
         </div>
     )

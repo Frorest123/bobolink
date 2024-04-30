@@ -15,8 +15,9 @@ export default function () {
                     <h2 className="Lessons">Useful Links</h2>
 
                     <ul className="box">
-                        <li><Link href="/math/Algebra1">Team</Link></li>
-                        <li><Link href="/math/register">Waitlist</Link></li>
+                        <li><Link href="/Bobolink/about">Team</Link></li>
+                        <li><Link href="/Bobolink/register">Waitlist</Link></li>
+                        <li><Link href="/admin">Admin</Link></li>
                     </ul>
                 </li>
                 <li>
