@@ -2,7 +2,7 @@
 import './globals.css'
 import './page.css'
 
-import Navbar from './navbar'
+import Navbar from './components/navbar'
 import Footer from './footer'
 export const metadata = {
   title: 'Bobolink',

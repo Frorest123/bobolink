@@ -3,9 +3,10 @@ import burger from '@/public/burger-menu-svgrepo-com.svg'
 import Link from 'next/link'
 import bobolinkLogo from '@/public/bobolinkLogoNav.png'
 import Image from 'next/image'
-import { ChakraWrapper } from './components/providers'
+import { ChakraWrapper, SessionWrapper } from './providers'
 import { Link as ChakraLink, LinkProps } from '@chakra-ui/react'
 import { useState } from 'react'
+import DataNavButton from './DataNavButton'
 
 export default function Navbar() {
 
@@ -28,6 +29,9 @@ export default function Navbar() {
                 <ul className="navLinks">
                     <li className="Login"><Link href="/"></Link></li>
                     <li className="about"><Link href="/Bobolink/about">About Us</Link></li>
+                    <SessionWrapper>
+                        <DataNavButton>Analytics</DataNavButton>
+                    </SessionWrapper>
                     <Link className="cta" href="/Bobolink/register"><button className='contactbutton'>Join Waitlist</button></Link>
                 </ul>
             </nav>
@@ -40,6 +44,7 @@ export default function Navbar() {
         { hamburger && (
             <div className='hamburgerDropDown'>
             <div className="About"><Link href="/Bobolink/about">About Us</Link></div>
+            <div className="About"><SessionWrapper><DataNavButton>Analytics</DataNavButton></SessionWrapper></div>
             <Link className="cta" href="/Bobolink/register"><button className='contactbutton'>Join Waitlist</button></Link>
             </div>
         )}

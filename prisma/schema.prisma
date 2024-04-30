@@ -36,8 +36,7 @@ model Session {
 
 model User {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
-  name          String?
-  email         String?   @unique
+  username         String?   @unique
   hashedPassword String? 
   emailVerified DateTime?
   image         String?
@@ -49,7 +48,7 @@ model WaitlistMember {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
   email         String?   @unique
 
-  leads          String?
+  leads          String
 }
 
 // model LeadList {
