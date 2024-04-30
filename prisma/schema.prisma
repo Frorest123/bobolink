@@ -36,8 +36,7 @@ model Session {
 
 model User {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
-  name          String?
-  email         String?   @unique
+  username         String?   @unique
   hashedPassword String? 
   emailVerified DateTime?
   image         String?
@@ -49,22 +48,21 @@ model WaitlistMember {
   id            String    @id @default(auto()) @map("_id") @db.ObjectId
   email         String?   @unique
 
-  leadList      LeadList  @relation(fields: [leadListId], references: id)
-  leadListId    String    @unique @db.ObjectId
+  leads          String
 }
 
-model LeadList {
-  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+// model LeadList {
+//   id            String    @id @default(auto()) @map("_id") @db.ObjectId
 
-  wordOfMouth Boolean
-  socialMedia Boolean
-  advertisement Boolean
-  newsletter Boolean
-  podcast Boolean
-  typedUrlDirectly Boolean
-  eventOrConference Boolean
-  other String?
+//   wordOfMouth Boolean
+//   socialMedia Boolean
+//   advertisement Boolean
+//   newsletter Boolean
+//   podcast Boolean
+//   typedUrlDirectly Boolean
+//   eventOrConference Boolean
+//   other String?
 
 
-  member        WaitlistMember?  @relation()
-}
+//   member        WaitlistMember?  @relation()
+// }

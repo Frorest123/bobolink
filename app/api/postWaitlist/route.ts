@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
     
     console.log("it work");
     const body = await req.json();
-
+    console.log(body);
     if (!body.data.email) {
         console.log('ur fat')
         console.log(body)
@@ -14,18 +14,17 @@ export async function POST(req: NextRequest) {
     }
 
     const newData: any = {...body.data};
-    console.log(newData.leads.other.checked)
-    newData.leads.other = newData.leads.other.value;
+    // console.log(newData.leads.other.checked)
+    // newData.leads.other = newData.leads.other.value;
     
 
     const waitlistItem = await prisma.waitlistMember.create({
         data:{
             email: newData.email,
-            leadList: {
-                create: {
-                    ...newData.leads
-                }
-            }
+            leads: newData.leads
+                // create: {
+                //     ...newData.leads
+                // }
         }
     })
 

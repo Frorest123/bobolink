@@ -5,7 +5,7 @@ export default function Algebra1(){
     <section>
         <div id="team-section">
             <div className="content">
-                <h1>Our Team</h1>
+                <h1><b>Our Team</b></h1>
                 <div className = "centered-description">
                 <p>Meet the masterminds behind Bobolink.</p>
                 </div>

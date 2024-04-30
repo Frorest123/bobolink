@@ -1,10 +1,27 @@
 
+
+/* @media screen and (min-width: 601px) {
+  #hero-1619 {
+    padding-top: clamp(12.5rem, 31.95vw, 18.75rem);
+  }
+} */
+
+
 @media only screen and (min-width: 0rem) {
   #hero-1619 {
     padding: var(--sectionPadding);
-    padding-top: clamp(12.5rem, 31.95vw, 18.75rem);
     position: relative;
     z-index: 1;
+  }
+  @media screen and (max-width: 600px) {
+    #hero-1619 {
+      padding-top: 120px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    #hero-1619 {
+      padding-top: clamp(12.5rem, 31.95vw, 18.75rem);
+    }
   }
   #hero-1619 .cs-container {
     width: 100%;
@@ -76,6 +93,24 @@
     display: inline-block;
     position: relative;
     z-index: 1;
+  }
+  @media only screen and (max-width: 600px) {
+    #hero-1619 .cs-button-solid {
+      font-size: 2rem;
+      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+      text-decoration: none;
+      font-weight: 700;
+      margin: 0;
+      color: #fff;
+      padding: 1rem 1.5rem;
+      background-color: var(--primary);
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+    #hero-1619 .cs-content {
+      align-items: center
+    }
   }
   #hero-1619 .cs-button-solid:before {
     content: '';

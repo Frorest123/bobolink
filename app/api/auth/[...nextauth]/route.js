@@ -17,14 +17,14 @@ const authOptions = {
             credentials: {
 
                 // feel free to change these. These are how you login and what you need on the signin screen
-                email: {label: "Email", type: "email"},
+                email: {label: "username", type: "text"},
                 password: {label: "password", type: "password"}
             },
             async authorize(credentials) {
 
                 console.log(credentials);
 
-                if(!credentials.password || !credentials.email) {
+                if(!credentials.password || !credentials.username) {
                     console.log('missing data')
                     return null;
                 }
@@ -33,7 +33,7 @@ const authOptions = {
 
                 const user = await prisma.user.findUnique({
                     where: {
-                        email: credentials.email
+                        username: credentials.username
                     }
                 })
 
@@ -43,8 +43,6 @@ const authOptions = {
                 }
 
                 const compare = await bcrypt.compare(credentials.password, user.hashedPassword);
-
-                console.log("bob");
 
                 if (!compare) {
                     console.log('wrong password')
